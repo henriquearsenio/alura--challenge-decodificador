@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logoAlura" src="imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section class="esquerda">
+            <textarea class='digitaTexto' name="" id="" cols="41" rows="10" placeholder="Digite seu Texto"></textarea>
+            <div class="informacao">
+                <h6 class="bi bi-exclamation-circle-fill">  Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="botaoEncriptar">CRIPTOGRAFAR</button>
+                <button class="botaoDesencriptar">DESCRIPTOGRAFAR</button>
+            </div>
+        </section>
+
+        <section class="direita">
+            <textarea class='mensagem' name="" id="" cols="20" rows="10"></textarea>
+            <p class="nenhumaMensagem1">Nenhuma mensagem encontrada</p>
+            <p class="nenhumaMensagem2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <button class="botaoCopiar">COPIAR</button>
+        </section>
+    </main>
+
+</body>
+</html>
